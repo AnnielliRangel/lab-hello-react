@@ -1,0 +1,66 @@
+.nav{
+  height: 20px;
+  width: 20px;
+  
+}
+.barra{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main{
+  background-color: rgb(22, 25, 44);
+  margin: 20px;
+  padding: 40px;
+  color:white;
+  height:400px;
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  
+
+}
+
+.principal > h1{
+  font-size: 5em;
+  margin-bottom: 0px;
+}
+
+.principal > p{
+  width: 220px;
+  margin-top: 0px;
+  font-weight: none;
+}
+
+
+.botao{
+  padding: 15px;
+  font-weight: bolder;
+}
+
+
+.cards{
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  flex-direction: row;
+  margin: 20px;
+  padding: 40px;
+
+}
+
+.card-img{
+  width: 150px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4{
+  margin:12px;
+}
+
