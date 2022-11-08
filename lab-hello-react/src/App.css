@@ -32,7 +32,8 @@
 .principal > p{
   width: 220px;
   margin-top: 0px;
-  font-weight: none;
+  margin-bottom:30px;
+  
 }
 
 
@@ -50,17 +51,23 @@
   flex-direction: row;
   margin: 20px;
   padding: 40px;
+  
 
 }
 
-.card-img{
+.p-cards{
+  margin: 10px;
+}
+
+.h-cards{
+  margin: 10px;
+}
+.img-cards {
+  margin:10px;
   width: 150px;
+
 }
 
-.card1,
-.card2,
-.card3,
-.card4{
-  margin:12px;
-}
+
+
 

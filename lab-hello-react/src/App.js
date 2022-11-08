@@ -5,6 +5,7 @@ import card1 from "./Images/icon1.png";
 import card2 from "./Images/icon2.png";
 import card3 from "./Images/icon3.png";
 import card4 from "./Images/icon4.png";
+import Icon from "./components/icon";
 
 function App() {
   return (
@@ -24,26 +25,10 @@ function App() {
         </div>
       </div>
       <div className="cards">
-        <div className="card1">
-          <img src={card1} alt="declarative icon" className="card-img" />
-          <h1>Declarative</h1>
-          <p>React makes it painless to create interactive UIs.</p>
-        </div>
-        <div className="card2">
-          <img src={card2} alt="components icon" className="card-img"/>
-          <h1>Components</h1>
-          <p>Built encapsulated components that manege their state.</p>
-        </div>
-        <div className="card3">
-          <img src={card3} alt="simple-way icon" className="card-img" />
-          <h1>Single-way</h1>
-          <p>A set of immutable values are passed to the component's.</p>
-        </div>
-        <div className="card4">
-          <img src={card4} alt="JSX icon" className="card-img" />
-          <h1>JSX</h1>
-          <p>Statically typed designed to run on modern browsers.</p>
-        </div>
+        <Icon imagem={card1} legend= "Declarative icon" title="Declarative" text= "React makes it painless to create interactive UIs." />
+        <Icon imagem={card2} legend= "Components icon" title="Componets" text="Built encapsulated components that manege their state." />
+        <Icon imagem={card3} legend= "Simple-Way icon" title="Single-Way" text= "A set of immutable values are passed to the component's." />
+        <Icon imagem={card4} legend= "JSX icon" title="JSX" text="Statically typed designed to run on modern browsers." />
       </div>
     </div>
   );
